@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="custom_button" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@color/colorTransparent</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="raisedButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/button_green</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="buttonTransparent" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:backgroundTint">@color/colorTransparent</item>
+        <item name="android:textColor">@color/colorRed</item>
+    </style>
+    <!--<style name="BaseAppTheme" parent="android:Theme.Material">-->
+        <!--&lt;!&ndash; enable window content transitions &ndash;&gt;-->
+        <!--<item name="android:windowActivityTransitions">true</item>-->
+
+        <!--&lt;!&ndash; specify enter and exit transitions &ndash;&gt;-->
+        <!--<item name="android:windowEnterTransition">@transition/explode</item>-->
+        <!--<item name="android:windowExitTransition">@transition/explode</item>-->
+
+        <!--&lt;!&ndash; specify shared element transitions &ndash;&gt;-->
+        <!--<item name="android:windowSharedElementEnterTransition">-->
+            <!--@transition/change_image_transform</item>-->
+        <!--<item name="android:windowSharedElementExitTransition">-->
+            <!--@transition/change_image_transform</item>-->
+    <!--</style>-->
+</resources>

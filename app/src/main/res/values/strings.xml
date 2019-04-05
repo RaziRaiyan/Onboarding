@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Asia Pacific</string>
+    <string name="header">Header</string>
+    <string name="lorem_impsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</string>
+    <string name="button_previous">Previous</string>
+    <string name="btn_next_finish">Next</string>
+    <string name="tv_email">Email :</string>
+    <string name="tv_password">Password :</string>
+    <string name="button_login">Login</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="contact_phone_number">0123456789</string>
+    <string name="search">Search</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="button_signup"><u>Sign Up</u></string>
+</resources>
