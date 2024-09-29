@@ -1,13 +1,14 @@
 package com.example.onboarding;
 
 public class Contact {
-    private String name,phone;
+    private String name,phone, bio;
     private int photo;
 
-    public Contact(String name, String phone, int photo) {
+    public Contact(String name, String phone, int photo, String bio) {
         this.name = name;
         this.phone = phone;
         this.photo = photo;
+        this.bio = bio;
     }
 
     public String getName() {
