@@ -3,12 +3,14 @@ package com.example.onboarding;
 public class Contact {
     private String name,phone, bio;
     private int photo;
+    private long birthdate;
 
-    public Contact(String name, String phone, int photo, String bio) {
+    public Contact(String name, String phone, int photo, String bio, long birthdate) {
         this.name = name;
         this.phone = phone;
         this.photo = photo;
         this.bio = bio;
+        this.birthdate = birthdate;
     }
 
     public String getName() {
